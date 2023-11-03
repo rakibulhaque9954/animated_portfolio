@@ -232,10 +232,10 @@ function playAnimation(animation, reverseAnimation) {
 
 
 function playClosingAnimation(reverseAnimation) {
-    tlBtn.innerHTML = "About";
-    trBtn.innerHTML = "Experience";
-    blBtn.innerHTML = "Projects";
-    brBtn.innerHTML = "Contact";
+    tlBtn.innerHTML = "自己紹介";
+    trBtn.innerHTML = "経験";
+    blBtn.innerHTML = "プロジェクト";
+    brBtn.innerHTML = "お問い合わせ";
   
     switch (activeCorner) {
       case "top-left":
@@ -276,13 +276,13 @@ function playClosingAnimation(reverseAnimation) {
     if (activeCorner === "top-left") {
       playClosingAnimation("reverse-animate-top-left");
     } else {
-      trBtn.innerHTML = "Experience";
-      blBtn.innerHTML = "Projects";
-      brBtn.innerHTML = "Contact";
+      trBtn.innerHTML = "経験";
+      blBtn.innerHTML = "プロジェクト";
+      brBtn.innerHTML = "お問い合わせ";
   
       // Setting activeCorner
       activeCorner = "top-left";
-      tlBtn.innerHTML = "&uarr;<br/>About";
+      tlBtn.innerHTML = "&uarr;<br/>自己紹介";
   
       handleWindowResize();
       playAnimation("animate-top-left", "reverse-animate-top-left");
@@ -311,13 +311,13 @@ function playClosingAnimation(reverseAnimation) {
     if (activeCorner === "top-right") {
       playClosingAnimation("reverse-animate-top-right");
     } else {
-      tlBtn.innerHTML = "About";
-      blBtn.innerHTML = "Projects";
-      brBtn.innerHTML = "Contact";
+      tlBtn.innerHTML = "自己紹介";
+      blBtn.innerHTML = "プロジェクト";
+      brBtn.innerHTML = "お問い合わせ";
   
       // Setting activeCorner
       activeCorner = "top-right";
-      trBtn.innerHTML = "&uarr;<br/>Experience";
+      trBtn.innerHTML = "&uarr;<br/>経験";
   
       handleWindowResize();
       playAnimation("animate-top-right", "reverse-animate-top-right");
@@ -346,13 +346,13 @@ function playClosingAnimation(reverseAnimation) {
     if (activeCorner === "bottom-left") {
       playClosingAnimation("reverse-animate-bottom-left");
     } else {
-      tlBtn.innerHTML = "About";
-      trBtn.innerHTML = "Experience";
-      brBtn.innerHTML = "Contact";
+      tlBtn.innerHTML = "自己紹介";
+      trBtn.innerHTML = "経験";
+      brBtn.innerHTML = "お問い合わせ";
   
       // Setting activeCorner
       activeCorner = "bottom-left";
-      blBtn.innerHTML = "Projects<br/>&darr;";
+      blBtn.innerHTML = "プロジェクト<br/>&darr;";
   
       handleWindowResize();
       playAnimation("animate-bottom-left", "reverse-animate-bottom-left");
@@ -381,13 +381,13 @@ function playClosingAnimation(reverseAnimation) {
     if (activeCorner === "bottom-right") {
       playClosingAnimation("reverse-animate-bottom-right");
     } else {
-      tlBtn.innerHTML = "About";
-      trBtn.innerHTML = "Experience";
-      blBtn.innerHTML = "Projects";
+      tlBtn.innerHTML = "自己紹介";
+      trBtn.innerHTML = "経験";
+      blBtn.innerHTML = "プロジェクト";
   
       // Setting activeCorner
       activeCorner = "bottom-right";
-      brBtn.innerHTML = "Contact<br/>&darr;";
+      brBtn.innerHTML = "お問い合わせ<br/>&darr;";
   
       handleWindowResize();
       playAnimation("animate-bottom-right", "reverse-animate-bottom-right");

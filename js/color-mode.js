@@ -4,6 +4,7 @@ const root = document.querySelector(":root");
 const storageKey = "color-mode";
 const defaultMode = "light-mode";
 
+
 // Load the user's preffered color mode from local storage.
 function loadColorMode() {
   const colorMode = localStorage.getItem(storageKey);
