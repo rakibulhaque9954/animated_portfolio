@@ -60,6 +60,38 @@ p {
     background-size: cover;
 }
 
+/* Responsive styling for mobile devices */
+@media (max-width: 768px) {
+  /* Adjust hero section for mobile */
+  #hero {
+      position: relative; /* change from absolute to relative */
+      top: initial; /* reset the top position */
+      left: initial; /* reset the left position */
+      transform: none; /* remove the transform */
+      margin-top: 2rem; /* Add space on top of hero section */
+  }
+
+  #hero h1, #hero h5, #hero p {
+      margin-bottom: 1rem; /* Add some margin to the bottom of text elements */
+  }
+
+  /* Adjust container for buttons */
+  .container {
+      padding: 0; /* remove padding from the container */
+  }
+
+  /* Adjust the button containers */
+  #lang-button, #github-btn {
+      margin-bottom: 1rem; /* Add space below the button containers */
+  }
+
+  /* Adjust button styles on mobile */
+  .btn {
+      margin-top: 0.5rem; /* Add top margin for spacing between buttons */
+      width: auto; /* Reset width to auto so they don't stretch */
+  }
+}
+
 /* Grid Common Styles */
 
 #grid {
