@@ -38,7 +38,7 @@ p {
     /* Dynamic centering */
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 #hero__animation {
@@ -60,11 +60,6 @@ p {
     background-position: center;
     background-size: cover;
 }
-
-  #hero h1, #hero h5, #hero p {
-      margin-top: 1rem; /* Add some margin to the top of text elements */
-  }
-
 
 
 /* Grid Common Styles */
