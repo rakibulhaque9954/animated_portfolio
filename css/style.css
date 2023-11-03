@@ -74,23 +74,8 @@ p {
   #hero h1, #hero h5, #hero p {
       margin-bottom: 1rem; /* Add some margin to the bottom of text elements */
   }
-
-  /* Adjust container for buttons */
-  .container {
-      padding: 0; /* remove padding from the container */
-  }
-
-  /* Adjust the button containers */
-  #lang-button, #github-btn {
-      margin-bottom: 1rem; /* Add space below the button containers */
-  }
-
-  /* Adjust button styles on mobile */
-  .btn {
-      margin-top: 0.5rem; /* Add top margin for spacing between buttons */
-      width: auto; /* Reset width to auto so they don't stretch */
-  }
 }
+
 
 /* Grid Common Styles */
 
